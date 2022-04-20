@@ -22,26 +22,26 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
-
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+puts "Is number_students less than or equal to 20?", number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -54,21 +54,28 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
-
+# prints comparison: is 4 less than 9?
+#should print: true
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+#variable books is assigned the value 3
+# prints comparison: is 4 less than the value of books?
+#should print: false
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+#variable friends is assigned the value 6, variable siblings assigned value 2
+# prints comparison: is value of friends greater than value of siblings?
+# should print: true
 attendees = 9;
 meals = 8;
 puts attendees != meals
 # YOU DO: Explain.
-
+#variable attendees is assigned value of 9; variable meals is assigned value of 8
+# prints comparison: does the value of attendees not equal the value of meals?
+#should print: true
 
 #-------------------
 # PART 3: Logical Operators
@@ -90,15 +97,19 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play && age < 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+#the final line of code should evaluate to false; this is because it is an && statement
+#so both items need to be true. We see that the dog loves to play is true, however
+#the age of the dog is equal to 1, not less than 1, so it's not a puppy. this
+#false statement will evaluate the whole thing to false. 

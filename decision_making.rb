@@ -35,9 +35,20 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# if the door_choice is equal to 1, the bear wears a hat. If the door choice is equal to anything else the bear wears a scarf
 # 2. What variable has a new value assigned to it after the first if statement executes?
+#bear_clothing
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+#scarf
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+#if the variable bear_choice is equal to 1 (it is), the statement will print you offer the bear your
+#bear_clothing (either hat or scarf, depending on if door choice was equal to 1 or not) and the bear shows you
+#a secret passage out. If the bear_choice variable is equal to 2, the statement would print "you tell the bear the (clothing) is too small...etc."
+# if bear_choice is equal to 3, the statement would print "you run as fast as you can...etc."
+#otherwise the statement would print "you stay with the bear and become its best friend"
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+# "You run as fast as you can into the next room. It's full of snakes!"
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+#"You tell the bear the hat is too small and it starts to cry!"
 # 7. What is your favorite ending?
+#"You stay with the bear and become its best friend!"
